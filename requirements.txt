@@ -1,0 +1,14 @@
+torch>=2.8
+transformers>=4.57
+peft
+accelerate
+safetensors
+datasets
+huggingface_hub[hf_transfer]
+flash-linear-attention<0.5
+einops
+sentencepiece
+pyyaml
+scipy
+tqdm
+brotli>=1.2
