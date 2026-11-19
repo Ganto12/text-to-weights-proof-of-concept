@@ -27,12 +27,10 @@ At inference time there is no training loop. A description goes in, and a standa
 
 ## Highlights
 
-| | |
-|---|---|
-| **Latency** | 1.87 s from description to merged model |
-| **Signal** | +5.3 points over a random update of the same size, reproduced on a second seed (+4.7) |
-| **Hold-out** | No training task shares a source dataset with any test benchmark |
-| **Output** | A standard 16.9 MB PEFT LoRA (rank 8, 186 matrices). No custom inference code |
+- **Latency.** 1.87 s from description to merged model.
+- **Signal.** +5.3 points over a random update of the same size, reproduced on a second seed (+4.7).
+- **Hold-out.** No training task shares a source dataset with any test benchmark.
+- **Output.** A standard 16.9 MB PEFT LoRA (rank 8, 186 matrices). No custom inference code.
 
 ## Results
 
