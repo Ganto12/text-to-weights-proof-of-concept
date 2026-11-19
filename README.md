@@ -86,7 +86,7 @@ See [USAGE.md](USAGE.md) for the timing breakdown.
 
 ## Reproducing
 
-The scripts expect the repository at `/workspace/poc` and one 24 GB GPU.
+The scripts expect the repository at `/workspace/text-to-weights` and one 24 GB GPU.
 
 ```bash
 pip install -r requirements.txt
@@ -114,11 +114,11 @@ Scaling the number of training tasks and widening the benchmark set.
 ## Citation
 
 ```bibtex
-@misc{text-to-weights-poc,
+@misc{text-to-weights-proof-of-concept,
   title  = {Text to Weights: a reproduction of description-conditioned weight generation},
   author = {Ganto12},
   year   = {2026},
-  url    = {https://github.com/Ganto12/text-to-weights-poc}
+  url    = {https://github.com/Ganto12/text-to-weights-proof-of-concept}
 }
 ```
 

@@ -12,7 +12,7 @@ import time
 
 import torch
 
-sys.path.insert(0, "/workspace/poc/scripts")
+sys.path.insert(0, "/workspace/text-to-weights/scripts")
 from common import ROOT, load_base, log, prompt_ids, write_json  # noqa
 import delta_hooks as dh
 from meta_model import MetaWriter

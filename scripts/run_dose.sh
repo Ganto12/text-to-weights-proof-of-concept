@@ -5,7 +5,7 @@
 # on 5 benchmarks x 300 POOL rows) -> full test on the same 5 benchmarks for C and R with the
 # checkpoint picked by SNI-validation loss. Rows go to the timeline with note "teachers=N; set=...".
 set -uo pipefail
-ROOT=/workspace/poc
+ROOT=/workspace/text-to-weights
 export HF_HOME=$ROOT/hf_cache PYTHONUNBUFFERED=1
 N=$1; SET=$2; TASKS=$3; EXTRA=${4:-}
 cd $ROOT/scripts

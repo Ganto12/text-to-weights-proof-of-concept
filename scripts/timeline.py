@@ -1,4 +1,4 @@
-"""Append-only results timeline: /workspace/poc/evals/timeline.jsonl.
+"""Append-only results timeline: /workspace/text-to-weights/evals/timeline.jsonl.
 
 Row: ts_utc, phase, step, arm, benchmark, split, metric, value, n, ci_low, ci_high, unparsed.
 `python timeline.py --sync` backfills every evals/<arm>.json score not yet in the file.
@@ -11,7 +11,7 @@ import math
 import os
 import time
 
-ROOT = "/workspace/poc"
+ROOT = "/workspace/text-to-weights"
 PATH = f"{ROOT}/evals/timeline.jsonl"
 
 

@@ -17,7 +17,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 import yaml
 
-sys.path.insert(0, "/workspace/poc/scripts")
+sys.path.insert(0, "/workspace/text-to-weights/scripts")
 from common import ROOT, log, write_json  # noqa
 
 N_KEEP = int(os.environ.get("N_KEEP", "230"))  # dose-response run: N_KEEP=999 keeps every passing task

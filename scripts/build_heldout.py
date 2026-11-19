@@ -13,7 +13,7 @@ import string
 import sys
 import urllib.request
 
-sys.path.insert(0, "/workspace/poc/scripts")
+sys.path.insert(0, "/workspace/text-to-weights/scripts")
 from common import ROOT, log, write_json, read_json  # noqa
 
 N_TEST = 500

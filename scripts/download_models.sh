@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # tmux session "download": starts as soon as packages are in, in parallel with the data build.
 set -euo pipefail
-ROOT=/workspace/poc
+ROOT=/workspace/text-to-weights
 exec > >(tee -a $ROOT/logs/download.log) 2>&1
 until grep -q "\[setup\] packages done" $ROOT/logs/setup.log 2>/dev/null; do sleep 10; done
 export HF_HUB_ENABLE_HF_TRANSFER=1 HF_HOME=$ROOT/hf_cache

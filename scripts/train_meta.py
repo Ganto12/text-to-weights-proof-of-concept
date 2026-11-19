@@ -14,7 +14,7 @@ import time
 
 import torch
 
-sys.path.insert(0, "/workspace/poc/scripts")
+sys.path.insert(0, "/workspace/text-to-weights/scripts")
 from common import (ROOT, answer_loss, collate, encode_rows, load_base, log, mean_answer_loss, read_json,  # noqa
                     write_json)
 import delta_hooks as dh

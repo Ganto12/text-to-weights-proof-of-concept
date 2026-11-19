@@ -6,7 +6,7 @@ import time
 
 import torch
 
-ROOT = "/workspace/poc"
+ROOT = "/workspace/text-to-weights"
 os.environ.setdefault("HF_HOME", f"{ROOT}/hf_cache")
 MODEL_DIR = f"{ROOT}/models/Qwen3.5-2B"
 MAX_LEN = 512

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Box setup for the text-to-weight-update proof of concept. Verbose on purpose.
 set -euo pipefail
-ROOT=/workspace/poc
+ROOT=/workspace/text-to-weights
 mkdir -p $ROOT/{models,data,teachers,baselines,meta,evals,logs,audit}
 exec > >(tee -a $ROOT/logs/setup.log) 2>&1
 echo "[setup] start $(date -u +%FT%TZ)"

@@ -9,7 +9,7 @@ import torch.nn as nn
 
 import delta_hooks as dh
 
-GTE_DIR = "/workspace/poc/models/bge-large-en-v1.5"  # gte-large remote code breaks on transformers 5; bge is native BERT, 1024-d CLS
+GTE_DIR = "/workspace/text-to-weights/models/bge-large-en-v1.5"  # gte-large remote code breaks on transformers 5; bge is native BERT, 1024-d CLS
 
 
 def _fix_gte_buffers(model):
